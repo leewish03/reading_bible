@@ -136,7 +136,6 @@ def create_post_content(today_scriptures, scripture_texts, youtube_link):
 
 {scripture_texts["잠언"]}
 
-{youtube_link}
 """
     return post_content
 
