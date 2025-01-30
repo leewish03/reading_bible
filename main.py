@@ -147,7 +147,7 @@ def post_to_band(post_content):
     """
     url = "https://openapi.band.us/v2.2/band/post/create"
     headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    data = {"band_key": BAND_KEY, "content": post_content, "do_push": False}
+    data = {"band_key": BAND_KEY, "content": post_content, "do_push": Ture}
 
     response = requests.post(url, headers=headers, data=data)
     return response.json()
