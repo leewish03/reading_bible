@@ -10,7 +10,7 @@ def run_script():
     os.system(f"python3 {script_name}")  # Windows 환경에서는 `python` 사용
 
 # 매일 오전 7시에 실행되도록 스케줄 등록
-schedule.every().day.at("07:00").do(run_script)
+schedule.every().day.at("17:00").do(run_script)
 
 print("✅ Scheduler started. Waiting for the scheduled time to execute...")
 
